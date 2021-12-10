@@ -18,10 +18,10 @@ def binary_search(arr , target):
             return  mid
 
 
-    return -1  ;
+    return -1  
 
 
 selected = input('enter the target value')
-res = binary_search(nums , int(selected));
+res = binary_search(nums , int(selected))
 
 print(res)
